@@ -153,11 +153,11 @@ table th {
 }
 
 #availability table tr:first-child {
-    border-bottom: 2px solid var(--primary-colour);
+    border-bottom: 2px solid var(--secondary-colour);
 }
 
 #availability table tr th:first-child {
-    border-right: 2px solid var(--primary-colour);
+    border-right: 2px solid var(--secondary-colour);
 }
 
 #availability table td {
@@ -165,7 +165,7 @@ table th {
 }
 
 #availability td.available {
-    color: var(--primary-colour);
+    color: var(--secondary-colour);
     font-weight: bold;
 }
 
