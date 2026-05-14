@@ -1,0 +1,159 @@
+
+/* Layout */
+html, body {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+header {
+/*    position: sticky;*/
+/*    top: 0;*/
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+header h1 {
+    margin: 0;
+    margin-bottom: 0.5rem;
+    width: 50%;
+}
+header h2 {
+    margin: 0;
+    display: inline-block;
+    font-size: 1.5rem;
+}
+header nav {
+    float: right;
+    padding-top: 3rem;
+    font-size: 1.1rem;
+}
+header nav ul{
+    display: inline-block;
+    margin: 0;
+}
+header nav ul li {
+    display: inline-block;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+main {
+    min-height: 70%;
+}
+footer hr {
+    width: 60%;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+}
+footer #get-in-touch {
+    width: 100%;
+    padding-bottom: 4rem;
+    padding-top: 2rem;
+}
+footer #get-in-touch > div {
+    width: 60%;
+    margin: auto;
+}
+footer #website-info {
+    width: 60%;
+    margin: auto;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+    font-size: 0.8rem;
+}
+#profile {
+    width: 50%;
+    margin: auto;
+    padding-top: 4rem;
+    font-size: 2rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+.circle-image-container {
+    display: inline-block;
+    vertical-align: middle;
+    aspect-ratio: 1;
+    overflow: hidden;
+}
+.circle-image-container img {
+    vertical-align: middle;
+    width: 100%;
+    aspect-ratio: 1;
+    object-fit: cover;
+    overflow: hidden;
+}
+button, a.button {
+    padding: 12px 24px 12px 24px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+main > section {
+    width: 50%;
+    margin: auto;
+    padding-top: 4rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+}
+main > section#profile {
+    width: 50%;
+    margin: auto;
+    padding-top: 4rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    font-size: 2rem;
+    line-height: normal;
+}
+
+.circle-image-container {
+    width: 33%;
+    float: right;
+    margin-left: 3rem;
+}
+
+
+#contact-methods,
+#availability {
+    width: 50%;
+    margin: auto;
+    padding-top: 4rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    line-height: 1.5rem;
+}
+
+#availability table {
+    width: 100%;
+    margin: auto;
+    border-collapse: collapse; 
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+table th {
+    text-align: center;
+}
+
+#contact-methods ul li {
+    margin-bottom: 1rem;
+}
+
+
+#contact-methods ul li img {
+    vertical-align: top;
+    user-select: none;
+    margin-right: 0.5rem;
+}
+
+#specialisations ul {
+/*    padding: 0;*/
+/*    width: 90%;*/
+    margin-left: auto;
+    margin-right: auto;
+}
+#specialisations ul li {
+    display: inline-block;
+    width: 32%;
+}

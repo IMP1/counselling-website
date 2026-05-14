@@ -1,0 +1,178 @@
+/* Imports */
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+/* Styling */
+/*        https://www.realtimecolors.com/?colors=0c0b21-f8f5ed-f36d44-fbe4d6-ffbe3d&fonts=Raleway-Atkinson%20Hyperlegible */
+
+/*
+TODO: Have this be REACTIVE and not look terrible on mobile resoluations (or small winder sizes) (or bigger window sizes?)
+*/
+
+
+:root {
+    --text-colour: #222;
+    --background-colour: #fff;
+    --primary-colour: #76d3f4;
+    --secondary-colour: #30385d;
+    --accent-colour: #ee8bd4;
+
+    --header-font: "Nunito", sans-serif;
+    --body-font: "Atkinson Hyperlegible", sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+    :root {
+        --text-colour: #d6d3f3;
+        --background-colour: #0f0003;
+        --primary-colour: #2a81bb;
+        --secondary-colour: #426fb8;
+        --accent-colour: #d2569a;
+    }
+}
+
+html, body {
+    background-color: var(--background-colour);
+}
+header {
+    background-color: var(--secondary-colour);
+    color: var(--background-colour);
+}
+footer {
+    background-color: var(--secondary-colour);
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--header-font);
+}
+header h2 {
+    opacity: 80%;
+    font-weight: 300;
+}
+p, a, span, div, li {
+    font-family: var(--body-font);
+    color: var(--text-colour);
+}
+a {
+    text-decoration: underline;
+    text-decoration-color: var(--accent-colour);
+    text-decoration-thickness: 2px;
+    text-underline-offset: 0.3rem;
+}
+a:hover, a:focus {
+    text-decoration-thickness: 3px;
+}
+a[target="_blank"]::after {
+    content: '\2197';
+    vertical-align: top;
+    display: inline-block;
+    font-size: 0.9em;
+}
+header > h1 a,
+header > h2 a {
+    font-family: var(--header-font);
+    text-decoration: none;
+    color: var(--background-colour);
+}
+header > h1 a:hover, 
+header > h1 a:focus, 
+header > h2 a:hover,
+header > h2 a:focus {
+    background: linear-gradient(to right, var(--primary-colour), var(--accent-colour));
+    color: transparent;
+    background-clip: text
+}
+
+header nav a {
+    color: var(--background-colour)
+}
+header nav a:hover, 
+header nav a:focus {
+    color: var(--primary-colour)
+}
+
+header nav ul li {
+    list-style: none;
+}
+
+footer p {
+    color: var(--background-colour);
+}
+footer a {
+    font-family: var(--header-font);
+    color: var(--background-colour);
+}
+footer #get-in-touch {
+    background-color: var(--primary-colour);
+}
+footer #get-in-touch p {
+    color: var(--text-colour);
+}
+footer #get-in-touch a {
+    color: var(--text-colour);
+}
+footer #website-info {
+    font-style: italic;
+}
+.circle-image-container {
+    border-radius: 50%;
+    border: 6px solid var(--primary-colour);
+}
+
+button, a.button {
+    text-decoration: none;
+    border: none;
+    box-shadow: 2px 2px 12px 0 rgba(0,0,0,0.2);
+    transition-duration: 0.2s;
+}
+button:hover, a.button:hover,
+button:focus, a.button:focus {
+    box-shadow: 2px 2px 12px 0 rgba(0,0,0,0.5);
+}
+button.action, a.button.action {
+    background-color: var(--secondary-colour);
+    color: var(--background-colour);
+}
+button.info, a.button.info {
+    background-color: var(--accent-colour);
+    color: var(--background-colour);
+}
+
+img#bacp-member-logo {
+    border: 2px solid var(--text-colour);
+    background-color: white;
+    padding: 0.5rem;
+}
+
+table {
+    font-family: var(--body-font);
+    color: var(--text-colour);
+}
+
+table th {
+    font-family: var(--header-font);
+}
+
+#availability table tr:first-child {
+    border-bottom: 2px solid var(--primary-colour);
+}
+
+#availability table tr th:first-child {
+    border-right: 2px solid var(--primary-colour);
+}
+
+#availability table td {
+    text-align: center;
+}
+
+#availability td.available {
+    color: var(--primary-colour);
+    font-weight: bold;
+}
+
+#availability td.unavailable {
+    color: gray;
+}
+
+#contact-methods ul {
+    list-style: none;
+}
