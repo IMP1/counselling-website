@@ -23,9 +23,9 @@
         <h1><a href="index.html">Huw Taylor</a></h1>
         <h2><a href="index.html">Counselling &amp; Psychotherapy</a></h2>
     </header>
-    <ruby block-begin="main"><main>
+    <main><ruby block-begin="main">
         
-    </main><ruby block-end="main">
+    <ruby block-end="main"></main>
     <footer>
         <div id="get-in-touch">
             <div>

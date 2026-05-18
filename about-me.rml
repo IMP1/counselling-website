@@ -1,0 +1,34 @@
+<ruby block-begin="main">
+    <section id="about-me">
+        <div class="circle-image-container" style="width: 33%;">
+            <img src="photos/photo_1.jpg" alt="A photo of Huw">
+        </div>
+        <h2>Who Am I?</h2>
+        <p>
+            My name is Huw. My pronouns are they/them. I'm originally from London but have lived in Leeds for the last decade or so.
+        </p>
+        <p>
+            <!-- My approach to psychotherapy is inherently political.  -->
+            <!-- For many, therapy can be prohibitively expensive. For others, cultural stigma or social pressure can make it hard to reach out. -->
+            <!-- Everybody is different and our backgrounds and responses to things are personal and unique. And we also belong to, and make up, society. We are affected by rising costs, and social divisions, and cultural events. -->
+        </p>
+        <p>
+            <!-- Frisbee? Singing? Games? Arts? -->
+            <!-- Community? Peer-supervision? Social Justice -->
+        </p>
+    </section>
+    <section id="qualifications">
+        <h2>Organisations &amp; Qualifications</h2>
+        <p>
+            I am a member of the <a rel="noopener noreferrer" href="https://www.bacp.co.uk/">British Association for Counselling and Psychotherapy</a>. This is the professional body that ensures its members are operating ethically to a set of standards and values.
+        </p>
+        <p>
+            I am part of the <a rel="noopener noreferrer" href="https://freepsychotherapynetwork.com/">Free Psychotherapy Network</a>, and as such I offer a number of free slots for counselling. If the cost of therapy is a barrier to you, please let me know.
+        </p>
+        <!-- Add Pink Therapy / Gendered Intelligence once I'm part of those networks. -->
+        <!-- Add BAPAM once I'm part of that org. -->
+        <!-- Proud member of the <a rel="noopener noreferrer" href="https://pcunion.org.uk/">Psychotherapy and Counselling Union</a> -->
+    </section>
+<ruby block-end="main">
+
+<ruby block-begin="credits"><small>Photo credits: Lewys Holt</small></ruby block-end="credits">
