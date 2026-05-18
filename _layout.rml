@@ -58,7 +58,7 @@
                 It was last updated <ruby>p now</ruby>.
             </p>
             <p>
-                <small><ruby block-begin="credits"></ruby block-end="credits"></small>
+                <small><ruby block-begin="credits"><ruby block-end="credits"></small>
             </p>
         </div>
     </footer>
