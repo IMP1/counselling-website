@@ -1,21 +1,19 @@
 <ruby>
-    class Fixnum
-        def ordinalize
-            if (11..13).include?(self % 100)
-                "#{self}th"
-            else
-                case self % 10
-                when 1; "#{self}st"
-                when 2; "#{self}nd"
-                when 3; "#{self}rd"
-                else    "#{self}th"
-                end
+    def ordinalize(n)
+        if (11..13).include?(n % 100)
+            "#{n}th"
+        else
+            case n % 10
+            when 1; "#{n}st"
+            when 2; "#{n}nd"
+            when 3; "#{n}rd"
+            else    "#{n}th"
             end
         end
     end
     def update_timestamp
         now = DateTime.now
-        return now.strftime("#{now.day.ordinalize} of %B, %Y")
+        return now.strftime("#{ordinalize(now.day)} of %B, %Y")
     end
 </ruby>
 <!DOCTYPE html>
