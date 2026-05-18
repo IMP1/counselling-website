@@ -55,7 +55,7 @@
             <p>
                 I've tried to make it as accessible as possible.
                 If there's anything wrong with it, please <a rel="noopener noreferrer" href="mailto:huwtaylor.counselling+website@gmail.com">send me an email</a> to let me know.
-                It was last updated <ruby>p now</ruby>.
+                It was last updated <ruby>p "2026-06-18 (TODO: Use datetime)"</ruby>.
             </p>
             <p>
                 <small><ruby block-begin="credits"><ruby block-end="credits"></small>
