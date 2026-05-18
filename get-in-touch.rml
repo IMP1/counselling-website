@@ -1,3 +1,4 @@
+<ruby include="_layout.rml">
 <ruby block-begin="main">
     <section id="contact-methods">
         <h2>Contact</h2>
