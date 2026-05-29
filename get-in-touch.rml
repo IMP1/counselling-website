@@ -10,7 +10,7 @@
                 <img src="icons/phone.svg" height="32px" alt="Icon of a phone"><a href="tel:+447426548587">+447426548587</a>
             </li>
             <li>
-                <img src="icons/email.svg" height="32px" alt="Icon of a letter to signify email"><a href="mailto:huwtaylor.counselling@gmail.com">huwtaylor.counselling@gmail.com</a>
+                <img src="icons/email.svg" height="32px" alt="Icon of a letter to signify email"><a href="mailto:huwtaylor.counselling@gmail.com" rel="noopener noreferrer">huwtaylor.counselling@gmail.com</a>
             </li>
         </ul>
         <p>
@@ -70,5 +70,30 @@
                 <td class="unavailable">Unavailable</td>
             </tr>
         </table>
+    </section>
+    <section>
+        <h2>Complaints</h2>
+        <p>
+            If you have a complaint or concern about the way I've conducted myself during our work together, please let me know as soon as possible.
+            <br>
+            Please give me full details of your complaint and I will undertake to treat it seriously, deal with it promptly and learn from it by reviewing or, if appropriate, improving my standards.
+            <br>
+            Feel free to make your complaint to me either in person, by phone, or in an email.
+            <br>
+            I will investigate your complaint during the following few days and will aim to:
+        </p>
+            <ol>
+                <li>Find out what happened and what went wrong</li>
+                <li>Make sure you receive an explanation and an apology if this is appropriate</li>
+                <li>Identify what I can do to ensure that this problem does not arise again</li>
+            </ol>
+        <p>
+            I am professionally registered with the BACP.
+            <br>
+            If you feel uncomfortable complaining directly to me or do not feel that your
+            complaint has been resolved to your satisfaction, you can find information on raising concerns with the BACP <a href="https://www.bacp.co.uk/about-us/protecting-the-public/professional-conduct/professional-conduct-procedure/" rel="noopener noreferrer">on their website</a>.
+            <br>
+            The BACP can also be contacted in various ways as shown on their <a href="https://www.bacp.co.uk/about-us/contact-us/" rel="noopener noreferrer">contact page</a>.
+        </p>
     </section>
 <ruby block-end="main">
