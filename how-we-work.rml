@@ -1,31 +1,35 @@
 <ruby include="_layout.rml">
 <ruby block-begin="main">
-    <section id="how-I-work">
-        <h2>How Do I Work?</h2>
-        <p>
-            My practice is based on a person-centred foundation that places you as the expert of your own life and experiences. Upon that, I often work with systemic and systematic issues, from family dynamics to societal issues.
-        </p>
-        <p>
-            I bring my lived experiences, my knowledge, and my therapy experience, and you bring your lived experiences, your thoughts, feelings, and behaviours, and everything that makes you you. And together we work towards your goals for our therapy.
-        </p>
-        <p>
-            My goal is to help you live authentically to you, and empower you to make the changes you want for your life.
-        </p>
-        <!-- Write this out in a jargon-y way and then re-write it to be accessible to all and keep the rewrite. -->
-    </section>
     <section id="what-to-expect">
         <!-- <div class="circle-image-container" style="width: 33%;">
             <img src="photos/nose.jpg" alt="Photo of Huw">
         </div> -->
         <h2>What Can You Expect?</h2>
         <p>
-            Sessions typically last 60 minutes. Our first session will involve us forming a contract together to establish expectations.
-            <!-- Session Length. Therapy basics. Stuff specific to me. Listening, warmth, empathy. -->
-            <!-- Long term, short term. Online :( -->
-            <!-- Cost and how tomake payments (cash, bank transfer) -->
-            <!-- I work on a weekly, fortnightly and on an adhoc basis for those unable to commit to the same spot each week. -->
-            <!-- Write this out in a jargon-y way and then re-write it to be accessible to all and keep the rewrite. -->
+            If you've not had therapy before, <a href="https://www.mind.org.uk/information-support/drugs-and-treatments/talking-therapy-and-counselling/what-to-expect-from-therapy/#WhatMightTheTherapySessionsBeLike" rel="noopener noreferrer">Mind's page on what to expect</a> outlines some of the things to know. 
         </p>
+        <p>
+            Sessions with me typically last 60 minutes and are one-to-one. I work in person in LS6, or online with Google Meet. 
+            I work on a weekly, fortnightly and on an ad-hoc basis for those unable to commit to the same spot each week. 
+            My normal price is £50, but I also offer a limited number of reduced cost slots if the default price is an obstacle to you, so please let me know if that's the case. I accept cash or bank transfers and take payments per session.
+            <!-- TODO: When I'm more established on the Free Psychotherapy Network, mention that here -->
+        </p>
+    </section>
+    <section id="how-I-work">
+        <h2>How Do I Work?</h2>
+        <p>
+            My practice is a person-centred, but systemic-aware style, where my focus is empowering you and encouraging your autonomy as an individual, as well as acknowledging how we affect and are affected by the systems we inhabit, be that relationships, family, work, society. The work will place you as the expert of your own life and experiences, and together we'll look at how you want to be living, and what is stopping you from doing so.
+        </p>
+        <p>
+            I offer space to be heard and seen, and to explore the issues keeping you from living how you want to live.
+            I'm an external perspective with your wellbeing as my core motivation. And I bring my lived experiences, knowledge, and therapeutic experience.
+            <br>
+            I hope you feel able to bring your lived experiences, thoughts and feelings, behaviours, and everything that makes you you.
+            And together we can work towards your goals for our work, with my aim being to help you live authentically to you, and empower you to make the changes you want for your life.
+        </p>
+        <!-- <p>
+            My work often revolves around exploring how we want to live, and what might be stopping us from doing so.
+        </p> -->
     </section>
     <section id="initial-consultation">
         <h2>Initial Chat</h2>
@@ -34,17 +38,16 @@
         </p>
     </section>
     <section id="specialisations">
-        <h2></h2>
+        <h2>My Experience</h2>
         <p>
-            <!-- TODO: UNFINISHED - PROOF READ THIS -->
             The most important aspect for successful therapy is finding a therapist that works for you. For some people, having a therapist share a personal understanding of their situation is helpful, while for others it might hinder the work.
         </p>
         <p>
-            <!-- TODO: UNFINISHED - PROOF READ THIS -->
             I am very happy to see if we'll be a good fit, and work well together no matter who you are and where you're coming from, and what you're coming with. I also have particular experience and training working with people bringing issues around the following:
         </p>
         <ul>
             <li>Anxiety</li>
+            <li>Bereavement</li>
             <li>Depression</li>
             <li>LGBTQ+ Counselling</li>
             <li>Loneliness</li>
@@ -55,4 +58,3 @@
         </ul>
     </section>
 <ruby block-end="main">
-<ruby block-begin="credits"><small>Photo credits: Lewys Holt</small><ruby block-end="credits">
