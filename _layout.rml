@@ -26,6 +26,7 @@
     <meta name="keywords" content="Counselling, Therapy, Psychotherapy, Leeds">
     <meta http-equiv="X-Clacks-Overhead" content="GNU Terry Pratchett">
     <title>Huw Taylor Counselling</title>
+    <link rel="icon" type="image/png" href="icons/sun.png">
     <link rel="stylesheet" type="text/css" href="layout.css">
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
@@ -79,7 +80,11 @@
                 It was last updated <ruby>p update_timestamp</ruby>.
             </p>
             <p>
-                <small><ruby block-begin="credits"><ruby block-end="credits"></small>
+                <small>
+                    <a rel="noopener noreferrer" href="https://www.flaticon.com/free-icons/sun" title="sun icons">Sun icon created by Freepik</a>
+                    <br>
+                    <ruby block-begin="credits"><ruby block-end="credits">
+                </small>
             </p>
         </div>
     </footer>
