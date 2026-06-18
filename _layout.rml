@@ -57,11 +57,11 @@
             <div>
                 <p>I'm also on the following counselling listings:</p>
                 <ul>
-                    <li><a href="https://www.bacp.co.uk/therapists/417026/huw-taylor/leeds-ls6" title="British Association for Counselling & Psychotherapy">BACP</a></li>
-                    <!-- <li><a href="https://www.bapam.org.uk/practitioner-search/huw-taylor/" title="British Association For Performing Arts Medicine">BAPAM</a></li> -->
-                    <!-- <li><a href="https://www.psychologytoday.com/gb">Psychology Today</a></li> -->
-                    <!-- <li><a href="https://www.counselling-directory.org.uk/">Counselling Directory</a></li> -->
-                    <!-- <li><a href="https://genderedintelligence.co.uk/therapists/huw-taylor">Gendered Intelligence</a></li> -->
+                    <li><a rel="noopener noreferrer" href="https://www.bacp.co.uk/therapists/417026/huw-taylor/leeds-ls6" title="British Association for Counselling & Psychotherapy">BACP</a></li>
+                    <li><a rel="noopener noreferrer" href="https://www.psychologytoday.com/gb/counselling/huw-taylor-leeds/1765714">Psychology Today</a></li>
+                    <!-- <li><a rel="noopener noreferrer" href="https://www.bapam.org.uk/practitioner-search/huw-taylor/" title="British Association For Performing Arts Medicine">BAPAM</a></li> -->
+                    <!-- <li><a rel="noopener noreferrer" href="https://www.counselling-directory.org.uk/">Counselling Directory</a></li> -->
+                    <!-- <li><a rel="noopener noreferrer" href="https://genderedintelligence.co.uk/therapists/huw-taylor">Gendered Intelligence</a></li> -->
                 </ul>
             </div>
         </div>
