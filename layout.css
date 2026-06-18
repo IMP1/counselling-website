@@ -131,7 +131,7 @@ main > section#profile {
     margin-bottom: 4rem;
 }
 
-table th {
+#availability table th {
     text-align: center;
 }
 
@@ -195,17 +195,6 @@ table th {
         padding-right: 6%;
         width: 80%;
     }
-
-/*  TODO:
-
-  - [ ] Get in touch needs re-aligning
-  - [ ] the availability table needs fixing or changing
-  - [X] the experience list needs fixing or changing
-  - [X] all pages need a bit of spacing from the margins
-  - [X] BACP logo is shrinking
-
-
-  */
 
 }
 
