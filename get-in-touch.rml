@@ -41,33 +41,75 @@
             </tr>
             <tr>
                 <th>Morning</th>
-                <td class="available">Available</td>
-                <td class="available">Available</td>
-                <td class="available">Available</td>
-                <td class="available">Available</td>
-                <td class="unavailable">Unavailable</td>
-                <td class="unavailable">Unavailable</td>
-                <td class="unavailable">Unavailable</td>
+                <td class="available">
+                    <img src="icons/available_bold.svg" alt="Available" height="32px">
+                </td>
+                <td class="available">
+                    <img src="icons/available_bold.svg" alt="Available" height="32px">
+                </td>
+                <td class="available">
+                    <img src="icons/available_bold.svg" alt="Available" height="32px">
+                </td>
+                <td class="available">
+                    <img src="icons/available_bold.svg" alt="Available" height="32px">
+                </td>
+                <td class="unavailable">
+                    <img src="icons/unavailable.svg" alt="Unavailable" height="32px">
+                </td>
+                <td class="unavailable">
+                    <img src="icons/unavailable.svg" alt="Unavailable" height="32px">
+                </td>
+                <td class="unavailable">
+                    <img src="icons/unavailable.svg" alt="Unavailable" height="32px">
+                </td>
             </tr>
             <tr>
                 <th>Afternoon</th>
-                <td class="available">Available</td>
-                <td class="available">Available</td>
-                <td class="available">Available</td>
-                <td class="available">Available</td>
-                <td class="unavailable">Unavailable</td>
-                <td class="unavailable">Unavailable</td>
-                <td class="unavailable">Unavailable</td>
+                <td class="available">
+                    <img src="icons/available_bold.svg" alt="Available" height="32px">
+                </td>
+                <td class="available">
+                    <img src="icons/available_bold.svg" alt="Available" height="32px">
+                </td>
+                <td class="available">
+                    <img src="icons/available_bold.svg" alt="Available" height="32px">
+                </td>
+                <td class="available">
+                    <img src="icons/available_bold.svg" alt="Available" height="32px">
+                </td>
+                <td class="unavailable">
+                    <img src="icons/unavailable.svg" alt="Unavailable" height="32px">
+                </td>
+                <td class="unavailable">
+                    <img src="icons/unavailable.svg" alt="Unavailable" height="32px">
+                </td>
+                <td class="unavailable">
+                    <img src="icons/unavailable.svg" alt="Unavailable" height="32px">
+                </td>
             </tr>
             <tr>
                 <th>Evening</th>
-                <td class="available">Available</td>
-                <td class="unavailable">Unavailable</td>
-                <td class="available">Available</td>
-                <td class="available">Available</td>
-                <td class="unavailable">Unavailable</td>
-                <td class="unavailable">Unavailable</td>
-                <td class="unavailable">Unavailable</td>
+                <td class="available">
+                    <img src="icons/available_bold.svg" alt="Available" height="32px">
+                </td>
+                <td class="unavailable">
+                    <img src="icons/unavailable.svg" alt="Unavailable" height="32px">
+                </td>
+                <td class="available">
+                    <img src="icons/available_bold.svg" alt="Available" height="32px">
+                </td>
+                <td class="available">
+                    <img src="icons/available_bold.svg" alt="Available" height="32px">
+                </td>
+                <td class="unavailable">
+                    <img src="icons/unavailable.svg" alt="Unavailable" height="32px">
+                </td>
+                <td class="unavailable">
+                    <img src="icons/unavailable.svg" alt="Unavailable" height="32px">
+                </td>
+                <td class="unavailable">
+                    <img src="icons/unavailable.svg" alt="Unavailable" height="32px">
+                </td>
             </tr>
         </table>
     </section>
