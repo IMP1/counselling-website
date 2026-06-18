@@ -181,13 +181,6 @@ main > section#profile {
         padding-right: 6%;
         width: 80%;
     }
-
-    .circle-image-container {
-        display: block;
-        float: none;
-        margin: auto;
-    }
-
     #profile,
     #contact-methods,
     #availability {
@@ -195,6 +188,13 @@ main > section#profile {
         padding-right: 6%;
         width: 80%;
     }
+
+    .circle-image-container {
+        display: block;
+        float: none;
+        margin: auto;
+    }
+
 
 }
 
@@ -233,6 +233,10 @@ main > section#profile {
         min-width: 0;
     }
 
+    #availability table img {
+        width: 24px;
+    }
+
 }
 
 /* Smaller than 500px wide */
@@ -243,9 +247,26 @@ main > section#profile {
     }
 
     header nav ul li {
-        display: block;
-        margin-left: 0;
-        margin-right: 0;
+        display: inline-block;
+        margin-left: 0.2rem;
+        margin-right: 0.2rem;
+    }
+    
+    header nav ul li a {
+        font-size: 5vw;
+    }
+
+    main section  {
+        padding-left: 0;
+        padding-right: 0;
+        width: 90%;
+    }
+    #profile,
+    #contact-methods,
+    #availability {
+        padding-left: 0;
+        padding-right: 0;
+        width: 90%;
     }
 
     a.button.action {
@@ -277,6 +298,14 @@ main > section#profile {
 
     #contact-methods ul li img {
         height: 24px;
+    }
+
+    .circle-image-container {
+        min-width: 300px;
+    }
+
+    #availability table {
+        font-size: 0.8rem;
     }
 
 }
