@@ -6,10 +6,6 @@
 /* Styling */
 /*        https://www.realtimecolors.com/?colors=0c0b21-f8f5ed-f36d44-fbe4d6-ffbe3d&fonts=Raleway-Atkinson%20Hyperlegible */
 
-/*
-TODO: Have this be REACTIVE and not look terrible on mobile resoluations (or small winder sizes) (or bigger window sizes?)
-*/
-
 
 :root {
     --text-colour: #222;
@@ -22,6 +18,7 @@ TODO: Have this be REACTIVE and not look terrible on mobile resoluations (or sma
     --body-font: "Atkinson Hyperlegible", sans-serif;
 }
 @media (prefers-color-scheme: dark) {
+    /* TODO: Test this! Does not look good in firefox with a dark theme! */
     :root {
         --text-colour: #d6d3f3;
         --background-colour: #0f0003;
@@ -163,6 +160,8 @@ table th {
 #availability table td {
     text-align: center;
 }
+
+/* TODO: Color the availablilty icons (SVG) somehow */
 
 #availability td.available {
     color: var(--secondary-colour);
