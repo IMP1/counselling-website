@@ -168,13 +168,17 @@ table th {
 
 /* TODO: Color the availablilty icons (SVG) somehow */
 
-#availability td.available {
-    color: var(--secondary-colour);
+#availability td svg.available {
+    stroke: var(--primary-colour);
+    fill: var(--primary-colour);
     font-weight: bold;
+    stroke-width: 8px;
 }
 
-#availability td.unavailable {
-    color: gray;
+#availability td svg.unavailable {
+    fill: gray;
+    stroke: gray;
+    stroke-width: 1px;
 }
 
 #contact-methods ul {
@@ -207,6 +211,19 @@ table th {
     button.info, a.button.info {
         background-color: var(--primary-colour);
         color: var(--text-colour);
+    }
+
+    #availability td svg.available {
+        stroke: var(--accent-colour);
+        fill: var(--accent-colour);
+        font-weight: bold;
+        stroke-width: 8px;
+    }
+
+    #availability td svg.unavailable {
+        fill: gray;
+        stroke: gray;
+        stroke-width: 1px;
     }
 
 
