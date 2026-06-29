@@ -135,6 +135,11 @@ main > section#profile {
     text-align: center;
 }
 
+#availability table svg {
+    width: 32px;
+    height: 32px;
+}
+
 #contact-methods ul li {
     margin-bottom: 1rem;
 }
@@ -234,8 +239,9 @@ main > section#profile {
         min-width: 0;
     }
 
-    #availability table img {
+    #availability table svg {
         width: 24px;
+        height: 24px;
     }
 
 }
