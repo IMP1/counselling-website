@@ -43,74 +43,74 @@
             </tr>
             <tr>
                 <th>Morning</th>
-                <td class="available">
-                    <img src="icons/available_bold.svg" alt="Available" height="32px">
+                <td>
+                    <ruby include="icons/available_bold.svg" alt="Available" class="icon available">
                 </td>
-                <td class="available">
-                    <img src="icons/available_bold.svg" alt="Available" height="32px">
+                <td>
+                    <ruby include="icons/available_bold.svg" alt="Available" class="icon available">
                 </td>
-                <td class="available">
-                    <img src="icons/available_bold.svg" alt="Available" height="32px">
+                <td>
+                    <ruby include="icons/available_bold.svg" alt="Available" class="icon available">
                 </td>
-                <td class="available">
-                    <img src="icons/available_bold.svg" alt="Available" height="32px">
+                <td>
+                    <ruby include="icons/available_bold.svg" alt="Available" class="icon available">
                 </td>
-                <td class="unavailable">
-                    <img src="icons/unavailable.svg" alt="Unavailable" height="32px">
+                <td>
+                    <ruby include="icons/unavailable.svg" alt="Unavailable" class="icon unavailable">
                 </td>
-                <td class="unavailable">
-                    <img src="icons/unavailable.svg" alt="Unavailable" height="32px">
+                <td>
+                    <ruby include="icons/unavailable.svg" alt="Unavailable" class="icon unavailable">
                 </td>
-                <td class="unavailable">
-                    <img src="icons/unavailable.svg" alt="Unavailable" height="32px">
+                <td>
+                    <ruby include="icons/unavailable.svg" alt="Unavailable" class="icon unavailable">
                 </td>
             </tr>
             <tr>
                 <th>Afternoon</th>
-                <td class="available">
-                    <img src="icons/available_bold.svg" alt="Available" height="32px">
+                <td>
+                    <ruby include="icons/available_bold.svg" alt="Available" class="icon available">
                 </td>
-                <td class="available">
-                    <img src="icons/available_bold.svg" alt="Available" height="32px">
+                <td>
+                    <ruby include="icons/available_bold.svg" alt="Available" class="icon available">
                 </td>
-                <td class="available">
-                    <img src="icons/available_bold.svg" alt="Available" height="32px">
+                <td>
+                    <ruby include="icons/available_bold.svg" alt="Available" class="icon available">
                 </td>
-                <td class="available">
-                    <img src="icons/available_bold.svg" alt="Available" height="32px">
+                <td>
+                    <ruby include="icons/available_bold.svg" alt="Available" class="icon available">
                 </td>
-                <td class="unavailable">
-                    <img src="icons/unavailable.svg" alt="Unavailable" height="32px">
+                <td>
+                    <ruby include="icons/unavailable.svg" alt="Unavailable" class="icon unavailable">
                 </td>
-                <td class="unavailable">
-                    <img src="icons/unavailable.svg" alt="Unavailable" height="32px">
+                <td>
+                    <ruby include="icons/unavailable.svg" alt="Unavailable" class="icon unavailable">
                 </td>
-                <td class="unavailable">
-                    <img src="icons/unavailable.svg" alt="Unavailable" height="32px">
+                <td>
+                    <ruby include="icons/unavailable.svg" alt="Unavailable" class="icon unavailable">
                 </td>
             </tr>
             <tr>
                 <th>Evening</th>
-                <td class="available">
-                    <img src="icons/available_bold.svg" alt="Available" height="32px">
+                <td>
+                    <ruby include="icons/available_bold.svg" alt="Available" class="icon available">
                 </td>
-                <td class="unavailable">
-                    <img src="icons/unavailable.svg" alt="Unavailable" height="32px">
+                <td>
+                    <ruby include="icons/unavailable.svg" alt="Unavailable" class="icon unavailable">
                 </td>
-                <td class="available">
-                    <img src="icons/available_bold.svg" alt="Available" height="32px">
+                <td>
+                    <ruby include="icons/available_bold.svg" alt="Available" class="icon available">
                 </td>
-                <td class="available">
-                    <img src="icons/available_bold.svg" alt="Available" height="32px">
+                <td>
+                    <ruby include="icons/available_bold.svg" alt="Available" class="icon available">
                 </td>
-                <td class="unavailable">
-                    <img src="icons/unavailable.svg" alt="Unavailable" height="32px">
+                <td>
+                    <ruby include="icons/unavailable.svg" alt="Unavailable" class="icon unavailable">
                 </td>
-                <td class="unavailable">
-                    <img src="icons/unavailable.svg" alt="Unavailable" height="32px">
+                <td>
+                    <ruby include="icons/unavailable.svg" alt="Unavailable" class="icon unavailable">
                 </td>
-                <td class="unavailable">
-                    <img src="icons/unavailable.svg" alt="Unavailable" height="32px">
+                <td>
+                    <ruby include="icons/unavailable.svg" alt="Unavailable" class="icon unavailable">
                 </td>
             </tr>
         </table>
