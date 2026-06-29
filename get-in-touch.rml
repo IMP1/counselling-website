@@ -7,12 +7,12 @@
         </p>
         <ul>
             <li>
-                <ruby include="icons/phone.svg" height="32px" alt="Icon of a phone">
+                <ruby include="icons/phone.svg" width="32px" height="32px" alt="Icon of a phone">
                 <img src="icons/phone.svg" height="32px" alt="Icon of a phone">
                 <a href="tel:+447426548587">+447426548587</a>
             </li>
             <li>
-                <ruby include="icons/email.svg" height="32px" alt="Icon of a letter to signify email">
+                <ruby include="icons/email.svg" width="32px" height="32px" alt="Icon of a letter to signify email">
                 <img src="icons/email.svg" height="32px" alt="Icon of a letter to signify email">
                 <a href="mailto:huwtaylor.counselling@gmail.com" rel="noopener noreferrer">huwtaylor.counselling@gmail.com</a>
             </li>
