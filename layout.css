@@ -140,10 +140,11 @@ main > section#profile {
 }
 
 
-#contact-methods ul li img {
+#contact-methods ul li svg.icon {
     vertical-align: top;
     user-select: none;
     margin-right: 0.5rem;
+    height: 32px;
 }
 
 #specialisations ul {
@@ -296,7 +297,7 @@ main > section#profile {
         font-size: 1rem;
     }
 
-    #contact-methods ul li img {
+    #contact-methods ul li svg.icon {
         height: 24px;
     }
 
@@ -313,7 +314,7 @@ main > section#profile {
 /* Smaller than 350px wide */
 @media only screen and (max-width: 350px) {
 
-    #contact-methods ul li img {
+    #contact-methods ul li svg.icon {
         height: 32px;
         display: block;
         margin: auto;
