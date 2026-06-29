@@ -50,6 +50,10 @@ p, a, span, div, li {
     font-family: var(--body-font);
     color: var(--text-colour);
 }
+.icon {
+    fill: var(--text-colour);
+    stroke: var(--text-colour);
+}
 a {
     text-decoration: underline;
     text-decoration-color: var(--accent-colour);
