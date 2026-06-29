@@ -20,11 +20,11 @@
 @media (prefers-color-scheme: dark) {
     /* TODO: Test this! Does not look good in firefox with a dark theme! */
     :root {
-        --text-colour: #d6d3f3;
-        --background-colour: #0f0003;
-        --primary-colour: #2a81bb;
-        --secondary-colour: #426fb8;
-        --accent-colour: #d2569a;
+        --text-colour: #ffe1f8;
+        --background-colour: #040419;
+        --primary-colour: #3d36c1;
+        --secondary-colour: #18154d;
+        --accent-colour: #b2599c;
     }
 }
 
@@ -40,6 +40,7 @@ footer {
 }
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--header-font);
+    color: var(--text-colour);
 }
 header h2 {
     opacity: 80%;
@@ -174,4 +175,36 @@ table th {
 
 #contact-methods ul {
     list-style: none;
+}
+
+@media (prefers-color-scheme: dark) {
+
+    header nav a {
+        color: var(--text-colour);
+    }
+    header nav a:hover, 
+    header nav a:focus {
+        color: var(--primary-colour);
+    }
+    header > h1 a,
+    header > h2 a {
+        color: var(--text-colour);
+    }
+
+    footer p, 
+    footer a {
+        color: var(--text-colour);
+    }
+
+    button.action, a.button.action {
+        background-color: var(--accent-colour);
+        color: var(--background-colour);
+    }
+    button.info, a.button.info {
+        background-color: var(--primary-colour);
+        color: var(--text-colour);
+    }
+
+
+
 }
